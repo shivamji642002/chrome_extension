@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Tab Title Fetcher",
+  "version": "1.0",
+  "description": "Fetches the current tab's title and closes the popup.",
+  "permissions": ["tabs"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "64": "icons/icons64.png"
+    }
+  },
+  "icons": {
+    "64": "icons/icons64.png"
+  }
+}

@@ -1,0 +1,126 @@
+<!--<!DOCTYPE html>
+<html>
+<head>
+  <title>Tab Title Fetcher</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <h1>Tab Title Fetcher</h1>
+  <button id="fetch-button">Fetch Tab Title</button>
+  <!-- The Modal 
+  <div id="myModal" class="modal">
+    <div class="modal-content">
+      <h2>Tab Title</h2>
+      <p id="tab-tittle">Loading...</p>
+      <button class="close-button" id="close-modal">Close</button>
+
+    </div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html> -->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tab Title Fetcher</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      background-color: #f9f9f9;
+      width: 250px;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 18px;
+      color: #333;
+      margin-bottom: 20px;
+    }
+
+    #fetch-button {
+      padding: 10px 20px;
+      font-size: 14px;
+      color: #fff;
+      background-color: #007bff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    #fetch-button:hover {
+      background-color: #0056b3;
+    }
+
+    /* Modal Styles */
+    .modal {
+      display: none;
+      position: fixed;
+      z-index: 1;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      overflow: auto;
+      background-color: rgba(0,0,0,0.4);
+    }
+
+    .modal-content {
+      background-color: #fefefe;
+      margin: 15% auto;
+      padding: 20px;
+      border: 1px solid #888;
+      width: 80%;
+      max-width: 300px;
+      text-align: center;
+      border-radius: 10px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    }
+
+    .modal-content h2 {
+      margin: 0;
+      font-size: 18px;
+      color: #333;
+    }
+
+    .modal-content p {
+      margin: 10px 0;
+      font-size: 16px;
+      color: #555;
+    }
+
+    .close-button {
+      padding: 8px 15px;
+      font-size: 14px;
+      color: #fff;
+      background-color: #007bff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    .close-button:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+  <h1>Tab Title Fetcher</h1>
+  <button id="fetch-button">Fetch Tab Title</button>
+
+  <!-- The Modal -->
+  <div id="myModal" class="modal">
+    <div class="modal-content">
+      <h2>Tab Title</h2>
+      <p id="tab-title">Loading...</p>
+      <button class="close-button" id="close-modal">Close</button>
+    </div>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
+
