@@ -14,10 +14,6 @@
 
 
 # How to upload your code in GitHub
-
- - Front-end development using React.js
- - Database design and management with MongoDB- Ensuring responsive design and user-friendly interfaces
- - open the cmd in home directory of project
  - check git version "git --version"
  - *use "git init"*
  - git add .
