@@ -1,6 +1,9 @@
 ## Create a chrome extension with a button in the pop up. 
 # Project Deployment Url:- 
   - [Chrome_Extension_Pop up](https://youtu.be/K5RuWUMJXcQ?si=b1Xps6bZGWXbrMq5)
+![Screenshot 2024-05-30 151257](https://github.com/shivamji642002/chrome_extension/assets/96495804/4d907a76-8929-4a2e-a0f6-09834803088c)
+
+![Screenshot 2024-05-30 151429](https://github.com/shivamji642002/chrome_extension/assets/96495804/c166dec3-dc90-4315-b125-bbf104b0ba2d)
 
 ![pic3](https://github.com/shivamji642002/Netflix_Clone_Shivam/assets/96495804/c6757b1e-ebe1-45c1-9a3f-4bd7ffd40083)
 ## When the button is clicked the Extention
